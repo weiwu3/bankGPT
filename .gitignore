@@ -1,0 +1,11 @@
+# The credit union's website snapshots are shared for the assignment only: never commit them.
+snapshots/0*/
+snapshots_zip/
+# Scorer output, caches, local secrets
+results/
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.env
+.DS_Store
