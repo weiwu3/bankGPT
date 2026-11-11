@@ -1,11 +1,15 @@
 # The credit union's website snapshots are shared for the assignment only: never commit them.
-snapshots/0*/
+snapshots/0*
 snapshots_zip/
 # Scorer output, caches, local secrets
 results/
 __pycache__/
 *.pyc
 .pytest_cache/
+.ruff_cache/
 .venv/
 .env
 .DS_Store
+
+# My question sets, conflict list and other working copies that quote the site: kept out of the repository
+dev/_local/
