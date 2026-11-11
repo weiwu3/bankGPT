@@ -1,0 +1,7 @@
+# The solution itself needs only the Python standard library.
+# The Anthropic SDK is used when ANTHROPIC_API_KEY is set (see NOTES.md). 0.77 is the first release
+# that can send the default model's request: claude-sonnet-5-5 is sent with output_config, which
+# older releases do not know and refuse before sending, so with them the reader falls back to
+# claude-haiku-4-5. Below 3 because the reader was tested with 0.77.0 to 2.8.0 only: a new major
+# release may change the errors and timeouts it relies on.
+anthropic>=0.77,<3
